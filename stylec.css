@@ -1,0 +1,42 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: rgb(47, 42, 42);
+}
+
+.container{
+    background-color: aqua;
+    height: 50%;
+    width: 25%;
+    padding: 1%;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 10%;
+    margin-bottom:10%;
+}
+.output{
+    text-align: center;
+    margin-bottom: 15%;
+}
+.convert{
+    
+    position: absolute;           /* Absolute positioning to move the button */
+                      /* Move it 50% from the top */
+    left: 50%;                    /* Move it 50% from the left */
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}

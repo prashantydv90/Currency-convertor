@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor
+    </title>
+    <link rel="stylesheet" href="stylec.css">
+</head>
+<body>
+    <div class="container">
+        <h3 style="margin-bottom: 10%;">Welcome to My Currency Convertor</h3>
+         <div>
+            
+            <span>From</span>
+            <input type="text" name="" id="from" list="from_c" style="width: 70px;" value="USD" autocomplete="off">
+            <datalist name="from" class="dd" id="from_c">
+                <!-- <option value="jsd">USD</option> -->
+            </datalist>
+            <span style="margin-left:70px">To</span>
+            <input type="text" name="" id="to" list="to_c" style="width: 70px;" value="INR" autocomplete="off">
+            <datalist name="to" class="dd" id="to_c">
+                <!-- <option value="jsd">INR</option> -->
+            </datalist>
+        </div>
+        <div class="input">
+            <input type="text" id="in_put" autocomplete="off" value="1">
+        </div>
+        <h4 class="output">1 USD = 80 INR</h4>
+        <button class="convert">Convert</button>
+         
+    </div>
+    <script src="appc.js"></script>
+    <script src="nodec.js"></script>
+</body>
+</html>
