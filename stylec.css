@@ -15,8 +15,8 @@ html,body{
 
 .container{
     background-color: aqua;
-    height: 50%;
-    width: 25%;
+    height: 300px;
+    width: 320px;
     padding: 1%;
 }
 .input{
@@ -31,10 +31,8 @@ html,body{
     margin-bottom: 15%;
 }
 .convert{
-    
-    position: absolute;           /* Absolute positioning to move the button */
-                      /* Move it 50% from the top */
-    left: 50%;                    /* Move it 50% from the left */
+    position: absolute; 
+    left: 50%;                   
     transform: translate(-50%, -50%);
     width: 100px;
     height: 30px;
